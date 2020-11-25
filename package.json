@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1"
+    
   },
   "author": "RJosue",
   "license": "ISC",
