@@ -1,8 +1,10 @@
 const routerPublic = require('express').Router();
-// const HightChart = require('../../dependencies/highchart');
+const HightChart = require('../../dependencies/highchart');
 routerPublic.get('/', async (req, res) => {
-    // res.render('index', await HightChart.Highchart.spiderChart());
-    res.render('index');
+    let imagen = await HightChart.Highchart.spiderChart()
+    // console.log(imagen);
+    res.render('index', imagen);
+    // res.render('index');
 });
 
 module.exports = routerPublic;
