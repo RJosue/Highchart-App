@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1"
-    
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "RJosue",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "highcharts-export-server": "^2.0.28"
+    "express": "^4.17.1"
   }
 }
