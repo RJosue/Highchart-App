@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm config set unsafe-perm true && set HIGHCHARTS_VERSION=npm && set ACCEPT_HIGHCHARTS_LICENSE=1"
+    "preinstall": ""
   },
   "author": "RJosue",
   "license": "ISC",
