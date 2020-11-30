@@ -1,9 +1,8 @@
 {
   "name": "create-chart-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Application for create a highchart graphic in nodeJS",
   "main": "index.js",
-  "scripts": {},
   "author": "RJosue",
   "license": "ISC",
   "dependencies": {

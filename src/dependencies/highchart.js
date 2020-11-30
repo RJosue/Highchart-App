@@ -101,7 +101,6 @@ function Highchart() {
                     }],
                 }
             };
-            // console.log(exportSettings);
             exporter.initPool();
 
             return new Promise((resolve) => {
